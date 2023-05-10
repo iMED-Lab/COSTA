@@ -8,7 +8,6 @@ The COSTA dataset contains TOF-MRA images acquired at two different magnetic fie
 ---
 
 ## CESAR: CErebrovaSculAR segmentation network
-![CESAR](./assets/CESAR_Network.png)
 
 ---
 
