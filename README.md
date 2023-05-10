@@ -1,25 +1,19 @@
 # **COSTA**: A Multi-center Multi-vendor TOF-MRA Dataset and A Novel Cerebrovascular Segmentation Network
 
----
-
 ## COSTA Dataset
 ![COSTA](./assets/costa.png)
 
 The COSTA dataset contains TOF-MRA images acquired at two different magnetic field strengths (1.5T and 3.0T), including 423 TOF-MRA images from 8 disparate data centers, which utilize MRI scanners from 4 distinct vendors. ```Six``` subsets of COSTA with manual annotations are online available. Please go to [HERE](https://imed.nimte.ac.cn/costa.html) to access the COSTA dataset and for more information.
 
----
-
 ## CESAR: CErebrovaSculAR segmentation network
 
----
-
-### 1. Requirements
+### 1. **Requirements**
 To successfully run the COSTA framework, please ensure the following requirements are met:
 - Operating System: Linux (Ubuntu 20.04)
 - Graphics Processing Unit (GPU): NVIDIA RTX 3090 with 24 GB VRAM
 - CUDA: It is recommended to have CUDA version 12.0 installed for optimal performance.
 
-### 2. Installation
+### 2. **Installation**
 To install the necessary components for COSTA, please follow the steps below:
 
 - Create a new Python 3.9 environment named COSTA using Conda:
@@ -55,7 +49,7 @@ After running these commands, the CESAR network and nnUNet will be installed aut
 
 Finally, please follow the instructions provided in the [nnUNet](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1) repository to set up the necessary data environment variables according to their guidelines.
 
-### 3. Data Preparation
+### 3. **Data Preparation**
 - Click [HERE](https://imed.nimte.ac.cn/costa.html) to request the download of the COSTA dataset.
 
 - Skull Stripping (For your own dataset only) \
@@ -78,13 +72,13 @@ if __name__ == "__main__":
     ...
 ```
 
-### 4. Experiment Planning
+### 4. **Experiment Planning**
 To preprocess the COSTA dataset in a Linux terminal, please utilize the following command:
 ```python
 COSTA_plan_and_preprocess -t XX # XX is the Task ID, e.g., 99
 ```
 
-### 5. Run Training
+### 5. **Run Training**
 ```
 CUDA_VISIBLE_DEVICES=0 COSTA_train CESAR COSTA 99 0 --use_ssl_pretrained=True
 
@@ -95,7 +89,7 @@ CUDA_VISIBLE_DEVICES=0 COSTA_train CESAR COSTA 99 0 --use_ssl_pretrained=True
 ```
 The SSL pretrained weights can be download form [MONAI Project](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/Pretrain#pre-trained-models). Or you can download it from [Google Drive](https://drive.google.com/drive/folders/1tN9mYEmXcIrYX2ir1QjUZqxr-IZQ65Jo?usp=sharing)
 
-### 6. Inference
+### 6. **Inference**
 There are two options available for performing cerebrovascular segmentation: 
 
 Option 1:
@@ -111,21 +105,21 @@ Finally, execute the following commands in a Linux terminal to run the inference
 CUDA_VISIBLE_DEVICES=0 COSTA_predict -i /Path/to/your/own/TOF-MRA/files/ -o /Path/to/save/the/predictions/ -t 99 -m CESAR -f 1 -chk model_best
 ```
 
-### 7. Performance Evaluation
+### 7. **Performance Evaluation**
 All evaluation metrics can be found in [DeepMind/surface-distance](https://github.com/deepmind/surface-distance)
 
-### 8. Potential Usages
+### 8. **Potential Usages**
 We have constructed the COSTA database, which encompasses heterogeneous Time-of-Flight Magnetic Resonance Angiography (TOF-MRA) images of cerebrovascular structures from multiple centers and vendors. This comprehensive database not only serves as a valuable resource for developing models for cerebrovascular structure segmentation but also provides a precious asset for evaluating the generalization performance of segmentation models on cross-center/cross-device data. 
 
 The COSTA database offers a diverse collection of TOF-MRA images, incorporating variations arising from different imaging centers and vendors. This diversity reflects real-world scenarios and enhances the applicability of segmentation models developed using this database. Researchers can utilize this resource to train, validate, and refine their segmentation algorithms, ensuring their effectiveness across various imaging setups and improving clinical outcomes. 
 
 Moreover, the COSTA database presents an opportunity for interested researchers to explore domain adaptation and domain generalization methods. By utilizing this database, researchers can investigate techniques that facilitate the transfer of knowledge from one imaging domain to another or enhance the performance of segmentation models on unseen data from different centers or devices. This enables the development of robust and versatile segmentation algorithms that can be applied in a wide range of clinical settings.
 
-### 9. Citation
+### 9. **Citation**
 If you find this work useful to you, feel free to cite the following reference:
 ```
 Citation information
 ```
 ---
-## Acknowledgements
+## **Acknowledgements**
 The model was trained, validated, and tested using the nnUNet framework. The SSL pre-trained weights were obtained from Project-MONAI, and we would like to express our sincere gratitude to [DKFZ/nnUNet](https://github.com/MIC-DKFZ/nnUNet) and [Project-MONAI/research-contributions](https://github.com/Project-MONAI/research-contributions) for their contributions and support in providing these valuable resources..
