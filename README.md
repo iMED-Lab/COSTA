@@ -87,7 +87,7 @@ CUDA_VISIBLE_DEVICES=0 COSTA_train CESAR COSTA 99 0 --use_ssl_pretrained=True
 # 0: fold number (0, 1, 2, 3, 4)
 # --use_ssl_pretrained: whether to use self-supervised learning (SSL) pretrained weights or not. True or False (defult is False)
 ```
-The SSL pretrained weights can be download form [MONAI Project](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/Pretrain#pre-trained-models). Or you can download it from [Google Drive](https://drive.google.com/drive/folders/1tN9mYEmXcIrYX2ir1QjUZqxr-IZQ65Jo?usp=sharing)
+The SSL pretrained weights can be download form [MONAI Project](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/Pretrain#pre-trained-models). Or you can download it from [Google Drive](https://drive.google.com/drive/folders/1tN9mYEmXcIrYX2ir1QjUZqxr-IZQ65Jo?usp=share_link)
 
 ### 6. **Inference**
 There are two options available for performing cerebrovascular segmentation: 
