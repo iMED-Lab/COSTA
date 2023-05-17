@@ -122,7 +122,7 @@ If you find this work useful to you, feel free to cite the following reference:
 Citation information
 ```
 
-### Usef links
+### Useful links
 [![](https://img.shields.io/badge/Dataset-TubeTK-blue)](https://public.kitware.com/Wiki/TubeTK/Data)
 [![](https://img.shields.io/badge/Dataset-IXI%20Dataset-blue)](http://brain-development.org/ixi-dataset/)
 [![](https://img.shields.io/badge/Dataset-ADAM%20Challenge-blue)](https://adam.isi.uu.nl/)
