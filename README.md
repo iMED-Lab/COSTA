@@ -124,21 +124,13 @@ Citation information
 
 ### Usef links
 [![](https://img.shields.io/badge/Dataset-TubeTK-blue)](https://public.kitware.com/Wiki/TubeTK/Data)
-
 [![](https://img.shields.io/badge/Dataset-IXI%20Dataset-blue)](http://brain-development.org/ixi-dataset/)
-
 [![](https://img.shields.io/badge/Dataset-ADAM%20Challenge-blue)](https://adam.isi.uu.nl/)
-
 [![](https://img.shields.io/badge/Dataset-ICBM-blue)](https://www.nitrc.org/projects/icbmmra)
-
 [![](https://img.shields.io/badge/Software-3D%20Slicer-orange)](https://www.slicer.org/)
-
 [![](https://img.shields.io/badge/Software-Brain%20Extraction%20Tool%20(BET)-orange)](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET)
-
 [![](https://img.shields.io/badge/Software-Histogram%20standardization-orange)](https://torchio.readthedocs.io/transforms/preprocessing.html#torchio.transforms.HistogramStandardization)
-
 [![](https://img.shields.io/badge/Software-batchgenerators-orange)](https://pypi.org/project/batchgenerators/)
-
 [![](https://img.shields.io/badge/Software-VTK%3A%20Surface%20generation-orange)](https://examples.vtk.org/site/Python/Medical/GenerateModelsFromLabels/)
 
 ---
