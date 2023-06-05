@@ -53,7 +53,7 @@ Finally, please follow the instructions provided in the [nnUNet](https://github.
 - Click [HERE](https://imed.nimte.ac.cn/costa.html) to request the download of the COSTA dataset.
 
 - Skull Stripping (For your own dataset only) \
- The first step involves performing skull stripping using the [Brain Extraction Tool (BET)](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET/UserGuide) to remove the non-brain regions from the TOF-MRA images. [NOTE: THIS STEP IS EXTREMELY IMPORTANT!]
+ The first step involves performing skull stripping using the [Brain Extraction Tool (BET)](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET/UserGuide) (or [HD-BET](https://github.com/MIC-DKFZ/HD-BET) and [iCVMapp3r](https://icvmapp3r.readthedocs.io/en/latest/)) to remove the non-brain regions from the TOF-MRA images. [NOTE: THIS STEP IS EXTREMELY IMPORTANT!. The [HD-BET](https://github.com/MIC-DKFZ/HD-BET) is recommended.]
 
 - Intensity Histogram Standardization \
 Use the `COSTA/costa/utils/intensity_histogram_standardization.py`  script to obtain histogram matching configurations based on the `imagesTr` set. This will generate a configuration file named `landmarks.pth`, which can be used to perform intensity standardization. Alternatively, you can perform intensity standardization using the pre-trained `landmarks.pth` provided by us.
