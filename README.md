@@ -2,6 +2,8 @@
 
 ## CESAR: CErebrovaSculAR segmentation network
 
+Click [HERE](https://imed.nimte.ac.cn/costa.html) to request the download of the COSTA dataset.
+
 ### 1. **Requirements**
 To successfully run the COSTA framework, please ensure the following requirements are met:
 - Operating System: Linux (Ubuntu 20.04)
@@ -45,7 +47,6 @@ After running these commands, the CESAR network and nnUNet will be installed aut
 Finally, please follow the instructions provided in the [nnUNet](https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1) repository to set up the necessary data environment variables according to their guidelines.
 
 ### 3. **Data Preparation**
-- Click [HERE](https://imed.nimte.ac.cn/costa.html) to request the download of the COSTA dataset.
 
 - Skull Stripping (For your own dataset only) \
  The first step involves performing skull stripping using the [Brain Extraction Tool (BET)](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/BET/UserGuide) (or [HD-BET](https://github.com/MIC-DKFZ/HD-BET) and [iCVMapp3r](https://icvmapp3r.readthedocs.io/en/latest/)) to remove the non-brain regions from the TOF-MRA images. [NOTE: THIS STEP IS EXTREMELY IMPORTANT!. The [HD-BET](https://github.com/MIC-DKFZ/HD-BET) is recommended.]
