@@ -226,7 +226,17 @@ This command will produce an overall performance result in a `.txt` file and det
 If you find this work useful to you, feel free to cite the following reference:
 
 ```
-Citation information will be available soon.
+@ARTICLE{10599360,
+  author={Mou, Lei and Yan, Qifeng and Lin, Jinghui and Zhao, Yifan and Liu, Yonghuai and Ma, Shaodong and Zhang, Jiong and Lv, Wenhao and Zhou, Tao and Frangi, Alejandro F. and Zhao, Yitian},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={COSTA: A Multi-center TOF-MRA Dataset and A Style Self-Consistency Network for Cerebrovascular Segmentation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Image segmentation;Annotations;Magnetic resonance imaging;Image resolution;Feature extraction;Magnetic fields;Hospitals;Multi-center and multi-vector;TOF-MRA;heterogeneity;style self-consistency;cerebrovascular segmentation},
+  doi={10.1109/TMI.2024.3424976}}
+
 ```
 
 ### Useful links
