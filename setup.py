@@ -16,6 +16,7 @@ setup(name='costa',
           "prettytable",
           "rich",
           "openpyxl"
+          "numpy==1.23.2"
       ],
       entry_points={
           'console_scripts': [
