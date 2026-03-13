@@ -1,8 +1,16 @@
-<img src="./assets/logo.png#pic_center" style="zoom:25%;" />
-
-## COSTA: A Multi-center Multi-vendor TOF-MRA Dataset and A Novel Cerebrovascular Segmentation Network
-
-![](assets/costa.png)
+<p align="center">   
+    <p align="center">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20COSTA%20}&reversal=false&section=header&textBg=false&fontColor=E90064&fontSize=40&animation=scaleIn&desc=A%20Multi-center%20Multi-vendor%20for%20ToF-MRA%20Dataset%20and%20A%20Novel%20-nl-Cerebrovascular%20Segmentation%20Network&descSize=20&descAlignY=80" />
+   <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
+  <img alt="Python - 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white"/>
+  <img alt="PyTorch - 2.0+" src="https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/>
+  <img alt="nnUNetv1" src="https://img.shields.io/badge/nnUNet-v1-005CED?logo=onnx&logoColor=white"/>
+  <img alt="CUDA 12.8" src="https://img.shields.io/badge/CUDA-12.8-76B900?logo=nvidia&logoColor=white"/>
+  <img alt="Env - Anaconda3" src="https://img.shields.io/badge/Env-Anaconda3-44A833?logo=anaconda&logoColor=white"/>
+</p>
+<p align="center">
+ <img width="800px" src="https://i.postimg.cc/YCG8bR1x/costa.png" align="center" alt="COSTA Dataset"/>
+</p>
 
 COSTA dataset download from [here](https://imed.nimte.ac.cn/costa.html) or [Zenodo link](https://doi.org/10.5281/zenodo.11025761)
 
