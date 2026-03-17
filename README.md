@@ -12,7 +12,7 @@
 <a href="https://pytorch.org/"><img alt="PyTorch - 2.0+" src="https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/></a>
 <a href="https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1"><img alt="nnUNetv1" src="https://img.shields.io/badge/nnUNet-v1-005CED?logo=onnx&logoColor=white"/></a>
 <a href="https://developer.nvidia.com/cuda-toolkit"><img alt="CUDA 12.8" src="https://img.shields.io/badge/CUDA-12.8-76B900?logo=nvidia&logoColor=white"/></a>
-<a href="https://ieeexplore.ieee.org/document/10599360/"><img alt="Paper - TMI" src="https://img.shields.io/badge/Paper-TMI%202024-B31B1B?logo=arxiv&logoColor=white"/></a>
+<a href="https://ieeexplore.ieee.org/document/10599360/"><img alt="Paper - TMI" src="https://img.shields.io/badge/Paper-TMI%202024-B31B1B?logo=paperswithcode&logoColor=white"/></a>
 </p>
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/YCG8bR1x/costa.png" align="center" alt="COSTA Dataset"/>
