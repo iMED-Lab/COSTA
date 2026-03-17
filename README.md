@@ -1,16 +1,24 @@
-<p align="center">   
-    <p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&height=150&text={%20COSTA%20}&reversal=false&section=header&textBg=false&fontColor=E90064&fontSize=40&animation=scaleIn&desc=A%20Multi-center%20Multi-vendor%20for%20ToF-MRA%20Dataset%20and%20A%20Novel%20-nl-Cerebrovascular%20Segmentation%20Network&descSize=20&descAlignY=80" />
-   <img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
-  <img alt="Python - 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white"/>
-  <img alt="PyTorch - 2.0+" src="https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/>
-  <img alt="nnUNetv1" src="https://img.shields.io/badge/nnUNet-v1-005CED?logo=onnx&logoColor=white"/>
-  <img alt="CUDA 12.8" src="https://img.shields.io/badge/CUDA-12.8-76B900?logo=nvidia&logoColor=white"/>
-  <img alt="Env - Anaconda3" src="https://img.shields.io/badge/Env-Anaconda3-44A833?logo=anaconda&logoColor=white"/>
+<p align="center">
+	<img alt="COSTA" width="7%" src="https://i.postimg.cc/WtLsDNMh/costa.png">
+</p>
+<p align="center">
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=transparent&height=100&color=gradient&text={%20COSTA%20}&desc=A%20ToF-MRA%20Dataset%and%20%20Cerebrovascular%20Segmentation%20Model&descAlignY=80&fontSize=50&fontAlignY=30&fontColor=FF6464">
+    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=transparent&height=100&color=gradient&text={%20COSTA%20}&desc=A%20ToF-MRA%20Dataset%and%20%20Cerebrovascular%20Segmentation%20Model&descAlignY=80&fontSize=50&fontAlignY=30&fontColor=003049">
+    <img alt="COSTA" src="https://capsule-render.vercel.app/api?type=transparent&height=100&color=gradient&text={%20COSTA%20}&desc=A%20ToF-MRA%20Dataset%and%20%20Cerebrovascular%20Segmentation%20Model&descAlignY=80&fontSize=50&fontAlignY=30&fontColor=003049">
+  </picture>
+   <a href="https://ubuntu.com/"><img alt="OS - Ubuntu" src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white"/></a>
+<a href="https://www.python.org/"><img alt="Python - 3.9+" src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white"/></a>
+<a href="https://pytorch.org/"><img alt="PyTorch - 2.0+" src="https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white"/></a>
+<a href="https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1"><img alt="nnUNetv1" src="https://img.shields.io/badge/nnUNet-v1-005CED?logo=onnx&logoColor=white"/></a>
+<a href="https://developer.nvidia.com/cuda-toolkit"><img alt="CUDA 12.8" src="https://img.shields.io/badge/CUDA-12.8-76B900?logo=nvidia&logoColor=white"/></a>
+<a href="https://ieeexplore.ieee.org/document/10599360/"><img alt="Paper - TMI" src="https://img.shields.io/badge/Paper-TMI-B31B1B?logo=arxiv&logoColor=white
+"/></a>
 </p>
 <p align="center">
  <img width="800px" src="https://i.postimg.cc/YCG8bR1x/costa.png" align="center" alt="COSTA Dataset"/>
 </p>
+
 
 COSTA dataset download from [here](https://imed.nimte.ac.cn/costa.html) or [Zenodo link](https://doi.org/10.5281/zenodo.11025761)
 
